@@ -1,0 +1,12 @@
+React is component based. A component is made up of a template and logic.
+JSX allows us to easily mix javascript and html and in the background babel coonvert all the JSX into html
+and it renders that html to the DOM.
+
+Further more, a component is a function and we return things from that function generally a jsx template.
+Then at the bottom we export that function so it can be used somewhere else by importing it where
+we want to use it.
+
+You can write any valid javascript inside the component before we return the jsx.
+In older versions of react i.e. before react version 17 you need to import react before a component can work.
+Using a functional component you may not need to do that.
+
