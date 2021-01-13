@@ -10,3 +10,17 @@ You can write any valid javascript inside the component before we return the jsx
 In older versions of react i.e. before react version 17 you need to import react before a component can work.
 Using a functional component you may not need to do that.
 
+We can create variables before the return keyword in a component e.g. string and number.
+The only thing we can't create and return is boolean and objects.
+
+Most of the things we output in our jsx are usually returned as strings.
+Home.js shows how to handle events in react within jsx.
+
+
+
+Working with multiple components
+The App component is usually refered to as the root component. Most the times other components that we create
+are nested in the app component.
+
+
+
